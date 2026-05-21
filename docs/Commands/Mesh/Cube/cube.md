@@ -1,6 +1,6 @@
 ---
 title: Cube Commands
-order: 3
+order: 2
 ---
 
 > ⚠️ **Note**
@@ -66,11 +66,13 @@ Size (2m) Position (2m,1m,2m), rotation (3°,4°,5°).
 m.c 2  2 1 2  3 4 5  6 2 1 
 ```
 
+
 What Values
-Size (2m)
-Location (2m, 1m, 2m)
-Rotation (3°, 4°, 5°)
-Scale (6m, 2m, 1m)
+- Size (2m)
+- Location (2m, 1m, 2m)
+- Rotation (3°, 4°, 5°)
+- Scale (6m, 2m, 1m)
+
 
 ✅ One command = fully modeled cube
 
@@ -84,14 +86,18 @@ Scale (6m, 2m, 1m)
 m.c 2 0 0 0  0 0 0  2 0.2 1
 ```
 
-*Syntax*
-m.c [size] [locX locY locZ] [rotX rotY rotZ] [scaleX scaleY scaleZ]
 
-Size 2m,
-Location X=0m, Y=0m, Z=0m
-Rotation X=0deg, Y=0deg, Z=0deg
-Scale X=2m, Y=0.2m Z=1m 
-→ wide flat wall.
+*Syntax*
+```text
+m.c [size] [locX locY locZ] [rotX rotY rotZ] [scaleX scaleY scaleZ]
+```
+
+- Size 2m,
+- Location X=0m, Y=0m, Z=0m
+- Rotation X=0deg, Y=0deg, Z=0deg
+- Scale X=2m, Y=0.2m, Z=1m <br>
+    → wide flat wall.
+
 
 **🧱 Create a floor**
 
@@ -99,14 +105,17 @@ Scale X=2m, Y=0.2m Z=1m
 m.c 2 0 0 0  0 0 0  5 5 0.2
 ```
 
-*Syntax*
-m.c [size] [locX locY locZ] [rotX rotY rotZ] [scaleX scaleY scaleZ]
 
-Size 2m,
-Location X=0m, Y=0m, Z=0m
-Rotation X=0deg, Y=0deg, Z=0deg
-Scale X=5m, Y=5m Z=0.2m 
- → Large flat plane.
+*Syntax*
+```text
+m.c [size] [locX locY locZ] [rotX rotY rotZ] [scaleX scaleY scaleZ]
+```
+
+- Size 2m,
+- Location X=0m, Y=0m, Z=0m
+- Rotation X=0deg, Y=0deg, Z=0deg
+- Scale X=5m, Y=5m, Z=0.2m <br>
+    → Large flat plane.
 
 **🏢 Create a pillar (tall)**
 
@@ -114,16 +123,18 @@ Scale X=5m, Y=5m Z=0.2m
 m.c 2  0 0 0  0 0 0  0.5 0.5 4
 ```
 
+
 *Syntax*
+```text
 m.c [size] [locX locY locZ] [rotX rotY rotZ] [scaleX scaleY scaleZ]
+```
 
-
-Size 2m,
-Location X=0m, Y=0m, Z=0m
-Rotation X=0deg, Y=0deg, Z=0deg
-Scale X=0.5m, Y=0.5m Z=4m 
- → tall pillar.
- 
+- Size 2m,
+- Location X=0m, Y=0m, Z=0m
+- Rotation X=0deg, Y=0deg, Z=0deg
+- Scale X=0.5m, Y=0.5m, Z=4m <br> 
+    → tall pillar.
+  
  ---
 
 ## Why Use This?
@@ -137,9 +148,9 @@ Repetitive for each cube Instant reuse
 
 ## Pro Tips
 
-· Leave trailing parameters empty to use defaults:
-    m.c 2 1 → only posX and posY set, rest default.
-· Use decimals for precise control: 0.05 for micro bevels.
+- Leave trailing parameters empty to use defaults: <br>
+    m.c 2 1 → only size 2 and locX 1 set, rest default.
+- Use decimals for precise control: 0.05 for micro bevels.
 
 ---
 
@@ -155,7 +166,5 @@ No clicks. No delays. Just Command Master Pro.
 ---
 
 Need more? Check out All Features or Raise an issue.
-
-```
 
 ---
