@@ -15,9 +15,9 @@ Blender workflows are often slow, repetitive, and full of clicks. This add-on so
 Add cube in your sean
 - `m.c 2  1 2 3`
 Add cube with size,  location x y z
-- `m.c 2. 1 2 3  4 5 6`
+- `m.c 2 1 2 3  4 5 6`
   Add cube with size,  location x y z,  rotation x y z
-- `m.c 2. 1 2 3  4 5 6  2 0.1 2`
+- `m.c 2  1 2 3  4 5 6  2 0.1 2`
 Add cube with size,   location x y z,  rotation x y z,  scale x y z
 
 👉 **work complete in seconds** 😎
