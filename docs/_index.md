@@ -5,7 +5,7 @@ githubUrl: https://github.com/CommandMaster/command-master-pro
 
 # Command Master Pro Documentation
 
-Welcome to the official documentation for **Command Master Pro** – the Blender add-on that turns complex workflows into simple, blazing-fast commands.
+Welcome to the official documentation for **Command Master Pro** – “Command Master Pro is a command-based system for Blender that turns complex 3D modeling tasks into fast, simple instructions—making creation quicker, smarter, and more efficient.”
 
 ## What is Command Master Pro?
 
