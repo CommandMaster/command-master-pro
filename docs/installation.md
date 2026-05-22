@@ -32,23 +32,28 @@ Search: Command Master Pro <br>
 Enable checkbox ✅
 
 
-## 🚀 4. Start Using Commands
+##  4. Start Using Commands
 
 1. Open Blender  
 2. Press **Ctrl + Spacebar**  
 3. Open **Command Master Prompt**  
 
-Now enter commands:
-
+Now enter commands: <br>
+👉 Quick cube add
 ```bash
 m.c
 ```
-👉 Quick cube add
+
+👉 Quick wall create
 
 ```bash
 m.c 2 0 0 0 0 0 0 4 0.1 2
 ```
-👉 Quick wall create
+
+
+**Learn More** <br>
+For tutorials and full cube command guide:<br>
+- [Cube Commands Docs](Commands/Mesh/Cube/cube.md)
 
 
 ## ❗ Troubleshooting
