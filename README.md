@@ -106,5 +106,23 @@ With Command Master Pro, the same workflow becomes fast and effortless:
 4. restart blender 
 5. Enable “Command Master Pro”
 6. ctrl+spacebar 
-7. Start using commands in Blender  
+7. Start using commands in Blender
+
+## Documentation
+
+- All Commands
+- Usage Guide
+- FAQ
+- Changelog
+
+
+## ⭐ Support the Project
+
+If this add-on saves you time:
+
+- Star this repo
+- Report bugs
+- Suggest new commands
+- Share with friends
+
 
