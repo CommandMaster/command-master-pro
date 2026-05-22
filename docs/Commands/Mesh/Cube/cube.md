@@ -154,7 +154,7 @@ Repetitive for each cube Instant reuse
 
 ---
 
-🏁 Summary
+## Summary
 
 ```bash
 m.c [size] [locX locY locZ] [rotX rotY rotZ] [scaleX scaleY scaleZ]
