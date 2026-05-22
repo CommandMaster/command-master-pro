@@ -135,7 +135,7 @@ M.c size locX locY locZ
 
 ## 🔗 Quick Links
 
-- [Documents Index](docs/_index.md.md)
+- [Documents Index](docs/_index.md)
 - [Installation](docs/installation.md)
 - [All Commands](docs/Commands/)
 - [User Guide](#usage-guide)
