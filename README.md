@@ -110,6 +110,8 @@ With Command Master Pro, the same workflow becomes fast and effortless:
 
 ## Documentation
 
+- Installation
+- ![Installation](docs/installation.md)
 - All Commands
 - Usage Guide
 - FAQ
