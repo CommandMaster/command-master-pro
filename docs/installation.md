@@ -59,6 +59,7 @@ For tutorials and full cube command guide:<br>
 ## ❗ Troubleshooting
  Addon not showing? <br>
 - Restart Blender <br>
+- Enable checkbox
 - Check folder name (no spaces) <br>
 
  Command not working? <br>
@@ -66,5 +67,5 @@ For tutorials and full cube command guide:<br>
 - Check syntax format 
 
 ## Update Addon
-- Delete old version
+- uninstall old version
 - Install new ZIP again
