@@ -11,6 +11,8 @@
 
 Welcome to the official documentation for **Command Master Pro** – “Command Master Pro is a command-based system for Blender that turns complex 3D modeling tasks into fast, simple instructions—making creation quicker, smarter, and more efficient.”
 
+![Before](assets/UI.jpg)
+
 ---
 
 ## What is Command Master Pro?
@@ -71,7 +73,28 @@ Blender workflows are often **slow, repetitive, and full of clicks**, especially
 
 ## 🎬 Demo
 
-![Demo](https://via.placeholder.com/800x400?text=Add+Your+Demo+GIF+Here)
+**🔹 Before (Manual Workflow)** <br>
+Creating a simple procedural object in Blender often involves multiple repetitive steps:
+- Create a cube
+- Apply an array modifier
+- Set count to 3 (create copies)
+- Separate the copies into individual objects
+- Apply subdivision surface modifier to each object one by one <br><br>
+  👉 This process can take several minutes, especially when repeated multiple times.
+
+![Before](assets/Before.gif)
+
+
+**🔹 After (Using Command Master Pro)** <br>
+With Command Master Pro, the same workflow becomes fast and effortless:
+- Run a few simple commands
+- Automatically create the cube
+- Instantly generate array copies
+- Separate objects seamlessly
+- Apply subdivision to each part in one go <br><br>
+  👉 What normally takes minutes is now completed in just seconds 🚀
+
+![Before](assets/After.gif)
 
 ---
 
@@ -85,22 +108,3 @@ Blender workflows are often **slow, repetitive, and full of clicks**, especially
 6. ctrl+spacebar 
 7. Start using commands in Blender  
 
----
-
-## ⚡ Quick Example
-
-```python
-mesh.cube.create
-modifier.bevel width=0.1
-
-mesh.sphere.create radius=0.5
-
-light.three_point.setup intensity=1.2
-
-
-
-## 🚀 Installation
-
-For full setup instructions, see:
-
-👉 [Installation Guide](docs/installation.md)
