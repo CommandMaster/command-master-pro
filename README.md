@@ -138,7 +138,7 @@ M.c size locX locY locZ
 - [Installation](docs/installation.md)
 - [All Commands](docs/Commands/)
 - [User Guide](#usage-guide)
-- FAQ
+- [FAQ](docs/FAQ.md)
 - [Changelog](CHANGELOG.md)
 
 
