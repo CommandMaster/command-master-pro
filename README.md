@@ -108,7 +108,7 @@ With Command Master Pro, the same workflow becomes fast and effortless:
 6. ctrl+spacebar 
 7. Start using commands in Blender
 
-## Usage Guide 
+## Usage Guide
 
 1. Press `Ctrl + Space` to open Command Master  
 2. Type your command  
@@ -137,7 +137,7 @@ M.c size locX locY locZ
 
 - [Installation](docs/installation.md)
 - [All Commands](docs/Commands/)
-- [User Guide](#-usage-guide)
+- [User Guide](#usage-guide)
 - FAQ
 - [Changelog](CHANGELOG.md)
 
