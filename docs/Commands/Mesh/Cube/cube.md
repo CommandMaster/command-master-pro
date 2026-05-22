@@ -80,7 +80,7 @@ What Values
 
 ## Practical Use Cases
 
-**🏠 Create a wall (wide + thin)**
+**Create a wall (wide + thin)**
 
 ```bash
 m.c 2 0 0 0  0 0 0  2 0.2 1
@@ -99,7 +99,7 @@ m.c [size] [locX locY locZ] [rotX rotY rotZ] [scaleX scaleY scaleZ]
     → wide flat wall.
 
 
-**🧱 Create a floor**
+**Create a floor**
 
 ```bash
 m.c 2 0 0 0  0 0 0  5 5 0.2
@@ -117,7 +117,7 @@ m.c [size] [locX locY locZ] [rotX rotY rotZ] [scaleX scaleY scaleZ]
 - Scale X=5m, Y=5m, Z=0.2m <br>
     → Large flat plane.
 
-**🏢 Create a pillar (tall)**
+**Create a pillar (tall)**
 
 ```bash
 m.c 2  0 0 0  0 0 0  0.5 0.5 4
