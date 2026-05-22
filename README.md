@@ -108,14 +108,38 @@ With Command Master Pro, the same workflow becomes fast and effortless:
 6. ctrl+spacebar 
 7. Start using commands in Blender
 
-## Documentation
+#-usage
 
-- Installation
-- ![Installation](docs/installation.md)
-- All Commands
-- Usage Guide
+1. Press `Ctrl + Space` to open Command Master  
+2. Type your command  
+3. Press `Enter`  
+
+👉 Done. Your task is executed instantly ⚡
+
+---
+
+### Example
+
+```bash
+m.c 2 0 0 0
+```
+👉 Creates a cube at the origin <br>
+**Syntax** <br>
+```bash
+M.c size locX locY locZ
+```
+-  size = Cube size 
+- locX locY locZ = Position in 3D space
+🔗 For more details: [Cube Documentation](docs/Commands/Mesh/Cube/cube.md)
+
+
+## 🔗 Quick Links
+
+- [Installation](docs/installation.md)
+- [All Commands](docs/Commands/)
+- [User Guide](#-usage)
 - FAQ
-- Changelog
+- [Changelog](CHANGELOG.md)
 
 
 ## ⭐ Support the Project
