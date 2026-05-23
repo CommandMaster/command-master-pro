@@ -213,11 +213,9 @@ Three cylinders spaced 2 meters apart.
 
 ```bash
 m.cy 1.5 3 24  2 1 0  2 30 0  1.5 1 1
----
+```
 Radius 1.5m, depth 3m, vertices 24, location(X = 2, Y = 1, Z = 0), rotation(X = 2, Y = 30, Z = 0), scale(X = 1.5, Y = 1, Z = 1) 
 
-
-, Y = 1, Z = 1) 
 
 ## 💡 Pro Tips
 - **vertices:** 32 is smooth, 8 or 16 gives faceted look (great for low-poly).
@@ -239,17 +237,4 @@ No clicks. No delays. Just Command Master Pro.
 
 ---
 
-Need more? Check out Cube Commands or Raise an issue.
-
-```
-
-This follows your cube.md structure exactly:  
-- Same unit warning note  
-- Syntax table  
-- Basic examples (from simple to full)  
-- Practical use cases  
-- Why use (comparison table)  
-- Pro tips  
-- Summary line  
-
-Just save as `cylinder.md` and place next to your `cube.md`. 🔥
+Need more? Check out [Commands Documents](docs/Commands) or Raise an issue.
