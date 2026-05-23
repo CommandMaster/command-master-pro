@@ -112,6 +112,15 @@ m.cy 1 2 32  1 5 2
 Radius 1m, depth 2m, 32 vertices, location (X = 1m, Y = 5m, Z = 2m).
 
 
+**🔹 With rotation only**
+
+```bash
+m.cy 1 2 32  0 0 0 1 2 3 
+```
+
+Radius 1m, depth 2m, 32 vertices, rotation (X = 1m, Y = 2m, Z = 3m).
+
+
 
 **🔹 With scale only**
 
@@ -147,31 +156,28 @@ Scale (1.5, 1, 1)  <br>
 m.cy 0.8 1.5 24  0 0 0
 ```
 
-Radius 0.8m, depth 1.5m – like a short log.
+Radius 0.8m, depth 1.5m, vertices 24, location 0 – like a short log.
 
 **Create an oil drum (tall cylinder)**
 
 ```bash
 m.cy 0.6 2.2 32  0 0 0
 ```
-
-Typical drum proportions.
+Radius 0.6m, depth 2.2m, vertices 32, location 0 - Typical drum proportions.
 
 **Create a bolt (low-poly hexagon look)**
 
 ```bash
 m.cy 0.5 0.3 6  0 0 0
 ```
-
-6 vertices → hexagonal shape.
+Radius 0.5m, depth 0.3m, vertices 6, location 0 - hexagonal shape.
 
 **Create a column (pillar with scale)**
 
 ```bash
 m.cy 0.5 4 32  0 0 0  0 0 0  1 1 2
 ```
-
-Scale Z = 2 → double height pillar.
+Radius 0.5m, depth 4m, vertices 32, location 0, rotation 0, scale(X = 1, Y = 1, Z = 2) - double height pillar.
 
 **Align cylinders side by side**
 
@@ -186,13 +192,6 @@ Three cylinders spaced 2 meters apart.
 ---
 
 ## Why Use This?
-
-Manual workflow Command Master Pro
- m.cy 1.5 3 24  2 1 0  0 30 0  1.5 1 1
-Multiple panels and clicks One line, half a second
-Repetitive for each cylinder Instant reuse
-
-## ⚡ Workflow Comparison
 
 | Step / Task              | Manual Workflow                          | Command Master Pro                          |
 |------------------------|------------------------------------------|---------------------------------------------|
@@ -213,20 +212,23 @@ Repetitive for each cylinder Instant reuse
 ### 🧪 Example Command
 
 ```bash
-m.cy 1.5 3 24  2 1 0  0 30 0  1.5 1 1
+m.cy 1.5 3 24  2 1 0  2 30 0  1.5 1 1
 ---
+Radius 1.5m, depth 3m, vertices 24, location(X = 2, Y = 1, Z = 0), rotation(X = 2, Y = 30, Z = 0), scale(X = 1.5, Y = 1, Z = 1) 
 
-💡 Pro Tips
 
-· Vertices: 32 is smooth, 8 or 16 gives faceted look (great for low-poly).
-· Leave trailing parameters empty to use defaults:
+, Y = 1, Z = 1) 
+
+## 💡 Pro Tips
+- **vertices:** 32 is smooth, 8 or 16 gives faceted look (great for low-poly).
+- Leave trailing parameters empty to use defaults: <br>
     m.cy 2 → only radius set, depth=2, vertices=32, rest default.
-· Use decimals for precision: m.cy 0.75 1.2 24.
-· Combine with m.c (cube) to build complex scenes rapidly.
+- Use decimals for precision: m.cy 0.75 1.2 24.
+- Combine with m.c (cube) to build complex scenes rapidly.
 
 ---
 
-🏁 Summary
+## Summary
 
 ```bash
 m.cy [radius] [depth] [vertices]  [locX locY locZ]  [rotX rotY rotZ]  [scaleX scaleY scaleZ]
