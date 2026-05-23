@@ -150,7 +150,7 @@ Scale (1.5, 1, 1)  <br>
 
 ## Practical Use Cases
 
- **Create a wooden log (short and wide)**
+ **🔹 Create a wooden log (short and wide)**
 
 ```bash
 m.cy 0.8 1.5 24  0 0 0
@@ -158,28 +158,28 @@ m.cy 0.8 1.5 24  0 0 0
 
 Radius 0.8m, depth 1.5m, vertices 24, location 0 – like a short log.
 
-**Create an oil drum (tall cylinder)**
+**🔹 Create an oil drum (tall cylinder)**
 
 ```bash
 m.cy 0.6 2.2 32  0 0 0
 ```
 Radius 0.6m, depth 2.2m, vertices 32, location 0 - Typical drum proportions.
 
-**Create a bolt (low-poly hexagon look)**
+**🔹 Create a bolt (low-poly hexagon look)**
 
 ```bash
 m.cy 0.5 0.3 6  0 0 0
 ```
 Radius 0.5m, depth 0.3m, vertices 6, location 0 - hexagonal shape.
 
-**Create a column (pillar with scale)**
+**🔹 Create a column (pillar with scale)**
 
 ```bash
 m.cy 0.5 4 32  0 0 0  0 0 0  1 1 2
 ```
 Radius 0.5m, depth 4m, vertices 32, location 0, rotation 0, scale(X = 1, Y = 1, Z = 2) - double height pillar.
 
-**Align cylinders side by side**
+**🔹 Align cylinders side by side**
 
 ```bash
 m.cy 1 2 32  -2 0 0
@@ -209,7 +209,7 @@ Three cylinders spaced 2 meters apart.
 
 ---
 
-### 🧪 Example Command
+### Example Command
 
 ```bash
 m.cy 1.5 3 24  2 1 0  2 30 0  1.5 1 1
