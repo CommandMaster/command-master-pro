@@ -237,4 +237,4 @@ No clicks. No delays. Just Command Master Pro.
 
 ---
 
-Need more? Check out [Commands Documents](docs/Commands) or Raise an issue.
+Need more? Check out [Commands Documents](docs/Commands/) or Raise an issue.
