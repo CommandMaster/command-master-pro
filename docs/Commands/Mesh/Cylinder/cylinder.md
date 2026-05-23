@@ -80,21 +80,38 @@ m.cy 1.5 3 16
 
 Radius 1.5m, depth 3m, 16 vertices (less smooth – octagonal look).
 
+**🔹 Radius + depth + vertices + location**
+
+```bash
+m.cy 1 2 32  2 1 3
+```
+
+Radius 1m, depth 2m, 32 vertices, location (X = 2m, Y = 1, Z = 3).
+
+
+**🔹 Radius + depth + vertices + location + rotation**
+
+```bash
+m.cy 1 2 32  2 1 3  5 6 7
+```
+Radius 1m, depth 2m, 32 vertices, location (X = 2m, Y = 1, Z = 3). rot(X = 5, Y = 6, Z = 7)
+
+**🔹 Radius + depth + vertices + location + rotation + scale**
+
+```bash
+m.cy 1 2 32  2 1 3  5 6 7  9 8 4
+```
+Radius 1m, depth 2m, 32 vertices, location (X = 2m, Y = 1, Z = 3). rot(X = 5, Y = 6, Z = 7). scale(X = 9, Y = 8, Z = 4)
+
 **🔹 With location only**
 
 ```bash
-m.cy 1 2 32  2 0 0
+m.cy 1 2 32  1 5 2 
 ```
 
-Radius 1m, depth 2m, 32 vertices, location (2m, 0, 0).
+Radius 1m, depth 2m, 32 vertices, location (X = 1m, Y = 5m, Z = 2m).
 
-**🔹 With location + rotation**
 
-```bash
-m.cy 1 2 32  0 0 0  0 45 0
-```
-
-Rotated 45° around Y axis.
 
 **🔹 With scale only**
 
