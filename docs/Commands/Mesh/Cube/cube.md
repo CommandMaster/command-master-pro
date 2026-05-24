@@ -165,6 +165,6 @@ No clicks. No delays. Just Command Master Pro.
 
 ---
 
-Need more? Check out All Features or Raise an issue.
+Need more? Check out [Commands Documents](../../) or Raise an issue.
 
 ---
