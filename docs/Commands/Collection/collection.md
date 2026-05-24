@@ -124,7 +124,7 @@ Creates this hierarchy:
 city (red)
   └─ buildings (green)
        └─ houses (yellow)
-
+```
 
 
 **🔹 Nested collections with colors**
