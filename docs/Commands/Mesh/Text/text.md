@@ -85,11 +85,11 @@ text Hello 2  0 2 0  45 0 0  2 2 2
 ```
 
 What Values
-Content "Hello"
-Font size 2
-Location (X = 0, Y = 2, Z = 0)
-Rotation (X = 45°, Y = 0°, Z = 0°)
-Scale (X = 2, Y = 2, Z = 2) → final size 4m
+- Content "Hello"
+- Font size 2
+- Location (X = 0, Y = 2, Z = 0)
+- Rotation (X = 45°, Y = 0°, Z = 0°)
+- Scale (X = 2, Y = 2, Z = 2) → final size 4m
 
 ✅ One command = fully modeled 3D text with transform.
 
@@ -159,7 +159,7 @@ Four directional labels around a center point.
 
 - **Quotes are important**: For text with spaces, always use double quotes:<br>
     text "My Label" ✅ <br>
-    text My Label ❌ (only "My" will appear)
+    text My Label ❌ 
 - Scale vs Font Size: fontSize sets the base height. scale multiplies it.<br>
     Example: text A 1 ... scale 2 2 2 → final height 2m.
 - Font defaults to Blender's default font. You can change it later in the Object Data properties.
@@ -180,6 +180,5 @@ No clicks. No delays. Just Command Master Pro.
 
 ---
 
-Need more? Check out Cube Commands, Cylinder Commands, Plane Commands, Sphere Commands, or Raise an issue.
-
+Need more? Check out [Commands Documents](../../) or Raise an issue.
 
