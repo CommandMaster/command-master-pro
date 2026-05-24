@@ -186,7 +186,7 @@ Three spheres at increasing Y heights.
 m.sc [radius] [segments] [rings]  [locX locY locZ]  [rotX rotY rotZ]  [scaleX scaleY scaleZ]
 ```
 
-Type once → sphere created instantly 😎
+Type once → sphere created instantly 😎 <br>
 No clicks. No delays. Just Command Master Pro.
 
 ---
