@@ -62,7 +62,7 @@ Radius = 2m, other parameters default.
 **🔹 Radius + segments**
 
 ```bash
-m.sc 2 24
+m.s 2 24
 ```
 
 Radius 2m,  segments 24 (less smooth – faceted look), other parameters default.
@@ -70,7 +70,7 @@ Radius 2m,  segments 24 (less smooth – faceted look), other parameters default
 **🔹 Radius + segments + rings**
 
 ```bash
-m.sc 2 24 12
+m.s 2 24 12
 ```
 
 Radius 2m, segments 24, rings 12.
@@ -79,7 +79,7 @@ Radius 2m, segments 24, rings 12.
 **🔹 Radius + segments + rings + location**
 
 ```bash
-m.sc 2 24 12  0 2 0
+m.s 2 24 12  0 2 0
 ```
 
 Radius 2m, segments 24, rings 12, location (X = 0, Y = 2m, Z = 0).
@@ -87,7 +87,7 @@ Radius 2m, segments 24, rings 12, location (X = 0, Y = 2m, Z = 0).
 **🔹 Radius + segments + rings + location + rotation**
 
 ```bash
-m.sc 2 24 12  0 2 0  45 0 0
+m.s 2 24 12  0 2 0  45 0 0
 ```
 
 Radius 2m, segments 24, rings 12, location (X = 0, Y = 2, Z = 0), rotation(X = 45, Y = 0, Z = 0)
@@ -96,7 +96,7 @@ Radius 2m, segments 24, rings 12, location (X = 0, Y = 2, Z = 0), rotation(X = 4
 **🔹 Full control (radius + segments + rings + location + rotation + scale)**
 
 ```bash
-m.sc 2 24 12  0 2 0  45 0 0  2 2 2
+m.s 2 24 12  0 2 0  45 0 0  2 2 2
 ```
 
 What Values <br>
