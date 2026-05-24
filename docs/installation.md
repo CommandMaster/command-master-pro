@@ -11,7 +11,7 @@ Follow these steps to install **Command Master Pro** in Blender.
 
 ## 1. Download Addon
 
-- Download the ZIP file of this repository
+- Download the ZIP file of this repository from release 
 - Or clone using Git:
 
 ```bash
