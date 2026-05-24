@@ -103,9 +103,9 @@ What Values <br>
 - Radius 2m
 - Segments 24
 - Rings 12
-- Location (X = 0,Y = 2m,Z = 0)
-- Rotation (X = 45°,Y = 0°,Z = 0°)
-- Scale (X = 2,Y = 2,Z = 2) → final size 4m diameter
+- Location (X = 0, Y = 2m, Z = 0)
+- Rotation (X = 45°, Y = 0°, Z = 0°)
+- Scale (X = 2, Y = 2, Z = 2) → final size 4m diameter
 
 ✅ One command = fully modeled sphere with transform.
 
@@ -162,12 +162,6 @@ Three spheres at increasing Y heights.
 ---
 
 ## ⚡ Why Use This?
-
-Manual workflow Command Master Pro
-Add sphere → set radius → set segments/rings → move → rotate → scale m.s 2 24 12  0 2 0  45 0 0  2 2 2
-Multiple clicks and panels One line, half a second
-Repetitive for each sphere Instant reuse
-
 
 | Step / Task        | Manual Workflow                                                          | Command Master Pro                          |
 |------------------|---------------------------------------------------------------------------|---------------------------------------------|
