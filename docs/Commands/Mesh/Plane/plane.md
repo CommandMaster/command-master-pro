@@ -93,9 +93,9 @@ m.p 3  1 2 0  0 45 0  2 2 1
 
 What Values <b>
 - Size 3m (base width/height)
-- Location (1m, 2m, 0)
-- Rotation (0°, 45°, 0°)
-- Scale (2, 2, 1) → final 6m × 6m
+- Location (X = 1m,Y = 2m,Z = 0)
+- Rotation (X = 0°,Y = 45°,Z = 0°)
+- Scale (X = 2,Y = 2,Z = 1)
 
 ✅ One command = fully modeled plane with transform.
 
@@ -116,9 +116,7 @@ Size 10m, location (X = 0, Y = 0,Z = -0.1) Large ground plane slightly below ori
 m.p 2  0 0 0  0 0 0  5 1 1
 ```
 
-Size 2, location (X = 0, Y = 0, Z = 0) rotated(X = 0, Y = 0, Z = 0), scale(X = 5, Y = 1, Z = 1)
-
-Wide rectangular plane – perfect for mirror or water.
+Size 2, location (X = 0, Y = 0, Z = 0) rotated(X = 0, Y = 0, Z = 0), scale(X = 5, Y = 1, Z = Wide rectangular plane – perfect for mirror or water.
 
 **🔹 Create a picture frame backplate**
 
@@ -126,9 +124,7 @@ Wide rectangular plane – perfect for mirror or water.
 m.p 1.5  0 0 1  90 0 0  1 1 0.05
 ```
 
-Size 1.5, location (X = 0, Y = 0, Z = 1) rotated(X = 90, Y = 0, Z = 0), scale(X = 1, Y = 1, Z = 0.05)
-
-Rotated 90° on X → vertical plane, thin scale on Z.
+Size 1.5, location (X = 0, Y = 0, Z = 1) rotated(X = 90, Y = 0, Z = 0), scale(X = 1, Y = 1, Z = 0.05) Rotated 90° on X → vertical plane, thin scale on Z.
 
 **🔹 Create a ramp (rotated)**
 
@@ -183,4 +179,4 @@ No clicks. No delays. Just Command Master Pro.
 
 ---
 
-Need more? Check out Cube Commands, Cylinder Commands, or Raise an issue.
+Need more? Check out [Commands Documents](../../) or Raise an issue.
