@@ -24,12 +24,19 @@ Add cube with size,   location x y z,  rotation x y z,  scale x y z
 
 ---
 
-## Quick Links
+## Quick Links 
 
-- [Installation](installation)
-- [Quick Example](quick-example)
-- [All Features](features)
-- [Before vs After](before-after)
+- [Installation](installation.md)
+  
+## learn commands 
+- [Add Cube Command](Commands/Mesh/Cube/cube.md)
+- [Add Sphere Command](Commands/Mesh/Sphere/sphere.md)
+- [Add Plane Command](Commands/Mesh/Plane/plane.md)
+- [Add Text Command](Commands/Mesh/Text/text.md)
+- [Add Cylinder Command](Commands/Mesh/Cylinder/cylinder.md)
+- [Add Collection Command](Commands/Collection/collection.md)
+
+
 
 ---
 
