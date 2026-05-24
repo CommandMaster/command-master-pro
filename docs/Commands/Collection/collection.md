@@ -199,7 +199,7 @@ Moves old_assets inside archive – perfect for cleanup.
 | Execution Style  | Multiple steps, panels, and manual actions                                       | One line, instant execution ⚡                           |
 | Reusability      | Repeat process for every collection setup                                        | Instant reuse (copy/paste commands)                      |
 
-One command = seconds saved. 😎
+One command = minutes saved. 😎
 
 ---
 
